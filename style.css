@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	font-family: "Lucida Sans"sans-serif;
+
+ .navbar-nav a:hover{
+	background-color:blue ;
+	overflow: hidden;
+	border-radius: 8px;
+	margin: 0px;
+}
+.txt{
+	display: block;
+}
+.a{
+	text-decoration: none !important;
+
+}
+.card{
+	
+	border:0;
+	
+}
+.cardaddress{
+	
+	background-color: transparent;
+}
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("image/images/new.jpeg") top right no-repeat;
+
+  background-size: cover;
+  position: relative;
+  padding-top: 82px;
+
+}
+#hero2 {
+  width: 100%;
+  height: 100vh;
+  background: url("image/images/fb.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 82px;
+}
+#hero3 {
+  width: 100%;
+  height: 100vh;
+  background: url("image/images/FE.jpeg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 82px;
+}
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 57px;
+  }
+}
+
+.navbar-nav .active{
+	background-color:blue ;
+
+}
+.carousel-img-size{
+	height: 100vh;
+}
+.logoimage{
+	width: 22vh;
+	height: auto;
+}
+/* tablet screen size*/
+@media only screen and (max-width: 600px){
+	.logoimage{
+	width: 11vh;
+	
+}
+.beach{
+	object-fit: cover;
+}
+.txt{
+	text-align: center;
+	position: relative;
+	
+	}
+}
+
+
