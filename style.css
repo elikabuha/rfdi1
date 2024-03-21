@@ -17,6 +17,9 @@ html{
 	text-decoration: none !important;
 
 }
+.navbar-light .navbar-toggler-icon{
+	
+}
 .card{
 	
 	border:0;
